@@ -1,0 +1,529 @@
+@import '../../styles/base-750.less';
+@import '../../styles/reset.less';
+
+.container-x, .detail-container {
+  winth: 100%;
+}
+.detail-container {
+  .detail {
+    .width(750);
+    .height(356);
+    overflow: hidden;
+
+    img {
+      .width(750);
+      .margin-top(-23.4926);
+    }
+  }
+
+  .detail-title {
+    width: 100%;
+    text-align: center;
+    .margin-top(32);
+    .margin-bottom(30);
+
+    h4 {
+      .padding-left(10);
+      .padding-right(10);
+      display: block;
+      .font-size(44);
+      color: #18344B;
+    }
+  }
+
+  .detail-price {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .margin-bottom(50);
+
+    .price {
+      display: flex;
+      align-items: center;
+      .font-size(32);
+      color: #18344B;
+
+      img {
+        .width(36);
+        .height(36);
+        .margin-right(12);
+        .margin-top(-2);
+      }
+
+      .member-price {
+        .margin-left(10);
+        color: #FBB11B;
+        .font-size(26);
+      }
+    }
+  }
+  .diliver {
+    border-top: 1px solid #f9fafc;
+    width: 100%;
+    .height(24);
+    background-color: #f9fafc;
+  }
+  .detail-stop-date {
+    .margin-top(54);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    h5 {
+      border: 1px solid #E8EEF4;
+      .padding(10, 12);
+      .border-radius(4);
+      text-align: center;
+      color: #97A4B1;
+      .font-size(24);
+      font-weight: 300;
+    }
+  }
+  .detail-feature {
+    text-align: center;
+    .margin-top(60);
+    h4 {
+      font-weight: 400;
+      color: #28313B;
+      .font-size(36);
+      .margin-bottom(50);
+    }
+    .feature-box {
+      width: 100%;
+      .padding-left(44);
+      .padding-right(36);
+      .padding-bottom(46);
+      .feature-icon {
+        display: flex;
+        flex-direction: row;
+        .margin-bottom(12);
+        img {
+          .margin-right(22);
+          .width(36);
+          .height(36);
+        }
+        h4 {
+          text-align: left;
+          word-break: break-all;
+          word-break: break-word;
+          .width(606);
+          color: #28313B;
+          .font-size(32);
+          margin: 0;
+        }
+      }
+      .feature-content {
+        text-align: left;
+        width: 100%;
+
+        p {
+          word-break: break-all;
+          word-break: break-word;
+          line-height: 1.6;
+          color: #97A4B1;
+          .font-size(30);
+        }
+      }
+
+    }
+  }
+
+  .detail-course {
+    .padding-top(58);
+    .padding-right(40);
+    .padding-left(39);
+    width: 100%;
+    text-align: center;
+    h4 {
+      font-weight: 400;
+      .margin-bottom(52);
+      color: #28313B;
+      .font-size(36);
+    }
+    .detail-course-content {
+      .width(670);
+      .margin-bottom(21);
+      border: 1px solid #E8EEF4;
+      .border-radius(10);
+      display: flex;
+      flex-direction: row;
+      justify-content: row;
+      align-items: center;
+
+      .content-img {
+        .margin-left(38);
+        .margin-right(28);
+        .margin-top(-8);
+        .width(64);
+        .height(64);
+        .border-radius(32);
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .content-font {
+        text-align: left;
+        h4 {
+          word-break: break-all;
+          word-break: break-word;
+          .width(508);
+          color: #28313B;
+          font-weight: 400;
+          .font-size(32);
+          .margin-top(32);
+          .margin-bottom(8);
+        }
+        p {
+          word-break: break-all;
+          word-break: break-word;
+          .width(508);
+          color: #9CA2AF;
+          .font-size(30);
+          font-weight: 300;
+          .margin-bottom(36);
+        }
+      }
+    }
+  }
+
+  .detail-teacher {
+    .padding-top(69);
+    .padding-right(40);
+    .padding-left(39);
+    .padding-bottom(112);
+    width: 100%;
+    text-align: center;
+    h4 {
+      font-weight: 400;
+      .margin-bottom(36);
+      color: #28313B;
+      .font-size(36);
+    }
+
+    .teacher-info {
+      img {
+        .width(200);
+        .height(200);
+        .border-radius(100);
+        .margin-bottom(30);
+      }
+      h5 {
+        word-break: break-all;
+        word-break: break-word;
+        color: #18344B;
+        .font-size(32);
+        .margin-bottom(26);
+      }
+      p {
+        word-break: break-all;
+        word-break: break-word;
+        text-align: left;
+        .font-size(30);
+        color: #697C8D;
+        font-weight: 300;
+        line-height: 1.8;
+
+        .open-more-text {
+          line-height: 1.8;
+          .font-size(30);
+          font-weight: 300;
+          color: #785EFF;
+        }
+      }
+    }
+  }
+  .detail-problem {
+    .padding-top(60);
+    .padding-right(40);
+    .padding-left(39);
+    width: 100%;
+    text-align: center;
+    h4 {
+      font-weight: 400;
+      .margin-bottom(36);
+      color: #28313B;
+      .font-size(36);
+    }
+    .problem-box {
+      text-align: left;
+      .margin-top(8);
+      .margin-bottom(40);
+
+      h4 {
+        word-break: break-all;
+        word-break: break-word;
+        color: #28313B;
+        .font-size(32);
+        font-weight: 400;
+        .margin-bottom(16);
+      }
+      p {
+        word-break: break-all;
+        word-break: break-word;
+        color: #6A7D8D;
+        .font-size(30);
+        font-weight: 300;
+        line-height: 1.6;
+      }
+    }
+    .detail-problem-bottom {
+      .padding-bottom(190);
+    }
+  }
+}
+
+.detail-footer-btn-stop {
+  color: #333;
+  .font-size(42);
+  position: fixed;
+  bottom: 0;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  .height(112);
+  background-color: #F0F1F3;
+}
+
+.detail-footer-btn {
+  color: #FFFFFF;
+  .font-size(42);
+  position: fixed;
+  bottom: 0;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  .height(112);
+  background-color: #00D377;
+}
+
+.buy-success-dialog {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(40, 49, 59, 0.3);
+  height: 100vh;
+
+  .success-box {
+    .margin(280, 100, 0, 100);
+    .width(550);
+    // .height(550);
+    .border-radius(12);
+    background-color: #FFFFFF;
+    text-align: center;
+
+    img {
+      .margin-top(56);
+      .width(140);
+      .height(140);
+      .margin-bottom(50);
+    }
+    h4 {
+      margin: 0;
+      .font-size(36);
+      color: #040404;
+      .margin-bottom(28);
+    }
+
+    p {
+      .padding(0, 52, 84, 52);
+      .font-size(30);
+      color: #868686;
+    }
+  }
+  .buy-close {
+    position: absolute;
+    bottom: 17px;
+    left: 50%;
+    .margin-left(-44);
+    img {
+      .width(88);
+      .height(88);
+      .border-radius(44);
+    }
+  }
+}
+
+.buy-fail-dialog {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(40, 49, 59, 0.3);
+  height: 100vh;
+
+  .fail-box {
+    .margin(280, 100, 0, 100);
+    .width(550);
+    // .height(550);
+    .border-radius(12);
+    background-color: #FFFFFF;
+    text-align: center;
+
+    img {
+      .margin-top(56);
+      .width(130);
+      .height(130);
+      .margin-bottom(50);
+    }
+    h4 {
+      margin: 0;
+      .font-size(36);
+      color: #040404;
+      .margin-bottom(28);
+    }
+
+    p {
+      .padding(0, 52, 84, 52);
+      .font-size(30);
+      color: #868686;
+    }
+  }
+  .buy-close {
+    position: absolute;
+    bottom: 17px;
+    left: 50%;
+    .margin-left(-44);
+    img {
+      .width(88);
+      .height(88);
+      .border-radius(44);
+    }
+  }
+}
+
+.buy-dialog {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(40, 49, 59, 0.3);
+  height: 100vh;
+
+  .buy-box {
+    .margin(280, 100, 0, 100);
+    .width(550);
+    // .height(550);
+    .border-radius(12);
+    background-color: #FFFFFF;
+    text-align: center;
+
+    .buy-head {
+      text-align: center;
+      .margin-left(4);
+      .margin-right(4);
+      .width(542);
+      border-bottom: 1px solid #E8EEF4;
+
+      .buy-header {
+        .padding-top(52);
+        .padding-bottom(24);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        img {
+          .width(48);
+          .height(48);
+          .margin-right(10);
+        }
+
+        h2 {
+          color: #28313B;
+          .font-size(48);
+        }
+      }
+      p {
+        color: #97A4B1;
+        .font-size(28);
+        font-weight: 300;
+        .margin-bottom(52);
+      }
+      .money-little {
+        color: #EB5858;
+      }
+    }
+
+    .buy-body {
+      .padding-top(48);
+      width: 100%;
+
+      .buy-course-name {
+        .padding(0, 68, 0, 68);
+        .margin(0);
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: row;
+
+        .name-icon {
+          color: #97A4B1;
+          .font-size(30);
+          .width(88);
+          text-align: left;
+          .margin-right(40);
+        }
+        .course-name-box {
+          .width(260);
+          text-align: left;
+          word-break: break-all;
+          word-wrap:break-word;
+          color: #28313B;
+          .font-size(30);
+
+        }
+      }
+      .buy-course-time {
+        .padding(18, 68, 0, 68);
+        width: 100%;
+        .margin(0);
+        display: flex;
+        flex-direction: row;
+        justify-content: row;
+        align-items: center;
+
+        .time-icon {
+          .width(88);
+          text-align: left;
+          color: #97A4B1;
+          .font-size(30);
+          .margin-right(40);
+        }
+        .course-time-box {
+          text-align: left;
+          color: #28313B;
+          .font-size(30);
+        }
+      }
+    }
+    .buy-btn {
+      .margin-top(64);
+      .margin-bottom(64);
+      .font-size(36);
+      outline: 0;
+      background-color: #FFFFFF;
+      .width(450);
+      .height(72);
+      .border-radius(36);
+      border: 1px solid #00D377;
+      color: #00D377;
+    }
+  }
+  .buy-close {
+    position: absolute;
+    bottom: 17px;
+    left: 50%;
+    .margin-left(-44);
+    img {
+      .width(88);
+      .height(88);
+      .border-radius(44);
+    }
+  }
+}
